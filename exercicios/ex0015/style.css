@@ -1,0 +1,9 @@
+@charset="UTF-8"
+
+body
+
+{background-color: rgb(207, 86, 153);
+    font-family: Arial, Helvetica, sans-serif;
+}
+h1{background-color: bisque;}
+h2{background-color: cadetblue;}

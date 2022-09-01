@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping tags</title>
+    <style>
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: dimgray;
+    margin: 0px;
+}
+header{
+    background-color: white;
+    padding:10px;
+    margin: 10px;
+    
+}
+main{text-align: justify;
+    text-indent: 20px;
+    background-color: white;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 30px;
+}
+footer{
+    background-color: blue;
+    color: white;
+    text-align: center;
+    padding: 1px;
+    margin: 0px;
+    font-style: italic;
+}
+
+div#bola {
+        background-color: rgb(98, 0, 255) ;
+        border-radius: 50%;
+        margin: 20px;
+        height: 100px;
+        width:100px
+    
+    }
+
+article{
+    background-color: rgb(228, 228, 255);
+    padding: 10px;
+    
+}
+article > aside{
+    background-color: rgb(131, 131, 245);
+    color: white;
+    
+    
+}
+nav{
+    box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.774);
+    background-color: rgb(131, 131, 245);
+   }
+nav > a{
+    text-decoration: none;
+    color: white;
+    margin: 10px;
+   
+   
+    
+}
+nav > a:hover{
+    text-decoration: underline;
+    
+
+    
+}
+h1{
+    text-align: center;
+}
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Meu site</h1>
+        <nav>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+        </nav>
+    </header>
+    <main>
+        <section id="assuntos">
+
+        </section>
+        <section id="noticias">
+            <article>
+                <h2>Noticias sobre o Brasil</h2>
+                <P>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Necessitatibus autem, eos delectus, accusantium quo ratione placeat dolorem rem sapiente iure atque vero animi at natus labore nisi porro est ex? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Inventore porro reprehenderit ullam adipisci sunt distinctio sed recusandae tenetur at aliquam aperiam quod eos, atque deleniti tempore unde molestias delectus nisi!</P>
+                <aside>
+                    <p>Artigo escrito por Maria</p>
+                </aside>
+            </article>
+
+        </section>
+
+
+    </main>
+    <footer>
+        Desenvolvido pelo CursoemVideo
+
+    </footer>
+    <div id="bola">
+    </div>
+</body>
+</html>
